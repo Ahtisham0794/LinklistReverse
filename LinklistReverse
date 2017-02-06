@@ -41,11 +41,11 @@ class LinkedList {
 		LIST.head.next.next = new node(3);
 		LIST.head.next.next.next = new node(4);
 		
-		System.out.println("Given Linked list");
+		System.out.println("Given Linked list data");
 		LIST.printList(head);
 		head =LIST.reverse(head);
 		System.out.println("");
-		System.out.println("Reversed linked list ");
+		System.out.println("Reversed linked list data");
 		LIST.printList(head);
 
 	}
